@@ -2,7 +2,7 @@
 #include "DW1000Ranging.h"
 
 #define PIN_RST  27
-#define PIN_IRQ  26
+#define PIN_IRQ  4
 #define PIN_SS   5
 
 float lastDistance = 0;
