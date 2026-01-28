@@ -3,7 +3,7 @@
 
 // ESP32-safe example pins — change if needed
 #define PIN_RST  27
-#define PIN_IRQ  26
+#define PIN_IRQ  4
 #define PIN_SS   5
 
 void setup() {
