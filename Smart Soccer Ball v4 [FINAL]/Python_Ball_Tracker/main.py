@@ -73,8 +73,8 @@ class App:
 
             uwb_x, uwb_y, uwb_z = pos
 
-            # ---- 2. THRESHOLD CHECK (ADD THIS) ----
-            # Define your limit (e.g., 10.0 meters from the center)
+            # ---- 2. OUT OF BOUNDS CHECK----
+            # Define limit (e.g. 10.0 meters from the center)
             MAX_DISTANCE = 7.0 
             
             # Calculate distance from origin (0,0,0)
