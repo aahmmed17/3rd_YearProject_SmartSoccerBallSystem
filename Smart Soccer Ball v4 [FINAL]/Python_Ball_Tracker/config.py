@@ -10,10 +10,10 @@ BAUD = 115200
 #
 #  Top-down layout example:
 #
-#   A2(0, 2.4, 0)  -------- A4(2.4, 2.4, 2.0)  <- elevated
+#   A2(0, 2.4, 0)  -------- A4(2.4, 2.4, 2.0)  
 #        |                        |
 #        |                        |
-#   A1(0, 0,   0)  -------- A3(2.4, 0,  2.0)   <- elevated
+#   A1(0, 0,   0)  -------- A3(2.4, 0,  2.0)   
 #
 A1 = (0.0,  0.0,  1.35)   
 A2 = (4.5,  0.0,  0.1)   
@@ -32,9 +32,9 @@ IDX_ANCHOR_4 = 3
 ALPHA_POS = 0.2   # lower = smoother, higher = more responsive
 
 # ---------------- KICK DETECTION ----------------
-KICK_THRESHOLD  = 20.0
-KICK_COOLDOWN_S = 1.0
-KICK_FLASH_MS   = 500
+KICK_THRESHOLD  = 20.0 #Acceleration threshold for kick
+KICK_COOLDOWN_S = 1.0  #Seconds before another kick can be detected
+KICK_FLASH_MS   = 500  #Duration for kick flash
 
 # ---------------- VISUALISER ----------------
 TRAIL_LENGTH  = 30
