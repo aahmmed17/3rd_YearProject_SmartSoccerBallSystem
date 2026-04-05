@@ -187,9 +187,9 @@ class Visualiser:
 
         # ---- Centre: IMU orientation cube ----
         self.imu_gl = gl.GLViewWidget()
-        # Change distance from 3 to 4 to give the cube more 'breathing room'
+    
         self.imu_gl.setCameraPosition(distance=4, elevation=25, azimuth=45)
-        self.imu_gl.setBackgroundColor("#ffffff")
+        self.imu_gl.setBackgroundColor("#2e2e42")
         self.imu_gl.setMinimumSize(200, 200)
         self.imu_gl.setMaximumWidth(240)
         outer.addWidget(self.imu_gl, stretch=1)
