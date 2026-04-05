@@ -196,7 +196,7 @@ class Visualiser:
 
         # IMU cube axes for orientation reference
         self.imu_cube = gl.GLBoxItem(size=QtGui.QVector3D(1.0, 0.6, 0.4))
-        # Use a bright, solid color to ensure it's not blending into the white background
+        # Use a bright, solid color 
         self.imu_cube.setColor((0.2, 0.5, 1.0, 1.0)) 
         
         # Add the item to the GL widget
@@ -310,7 +310,7 @@ class Visualiser:
         self.data_win.resize(1200, 620)
         self.data_win.setBackground("#ffffff")
 
-        # Row 1 — accel + gyro side by side
+        # Row 1 — accel + gyro data side by side
         self.accel_plot = self.data_win.addPlot(title="Acceleration (m/s²)")
         style_plot(self.accel_plot)
 
